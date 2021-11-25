@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="16dp"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/service"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_foreground_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/foreground_service"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_intent_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/intent_service"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_job_dispatcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/job_dispatcher"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_job_intent_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/job_intent_service"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_alarm_manager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alarm_manager"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_work_manager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/work_manager"/>
+
+
+</LinearLayout>
