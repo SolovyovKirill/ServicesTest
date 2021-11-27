@@ -24,7 +24,7 @@ class MyIntentService : IntentService(NAME) {
     }
 
     override fun onHandleIntent(intent: Intent?) {
-        log("onStartCommand")
+        log("onHandleIntent")
         for (i in 0 until 100) {
             Thread.sleep(1000)
             log("Timer $i")

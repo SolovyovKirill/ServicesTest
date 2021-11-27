@@ -28,10 +28,10 @@
         android:text="@string/intent_service"/>
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_job_dispatcher"
+        android:id="@+id/btn_job_scheduler"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/job_dispatcher"/>
+        android:text="@string/job_scheduler"/>
 
 
     <com.google.android.material.button.MaterialButton
